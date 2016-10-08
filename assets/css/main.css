@@ -1643,7 +1643,7 @@
 	}
 
 		a:hover {
-			color: #E27689;
+			color: chocolate;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1693,7 +1693,7 @@
 		.row > section, .row > article {
 			margin-bottom: 0;
 		}
-
+		
 /* Image */
 
 	.image {
@@ -1956,6 +1956,10 @@
 			.item header h3 {
 				font-size: 1em;
 			}
+			
+			.item:hover{
+				background-color : #DCE1E0;
+			}
 
 /* Icons */
 
@@ -2111,7 +2115,7 @@
 			}
 
 				#nav ul li a.active span:before {
-					color: #e27689;
+					color: chocolate;
 				}
 
 /* Footer */
